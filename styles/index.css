@@ -1,0 +1,139 @@
+body {
+	background: linear-gradient(-45deg, #005401, #050505, #282828, #0fff1b);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    cursor: crosshair;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.logotext {
+    font-family: "Red Hat Display", sans-serif;
+    color: white;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100px;
+}
+
+.textunderlogotext {
+    font-family: "Red Hat Display", sans-serif;
+    color: white;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+}
+
+.imglogo {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.imglogo:hover {
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+button {
+    width: 350px;
+    height: 100px;
+    font-size: 35px;
+    color: white;
+    background: #55ff12;
+background: linear-gradient(90deg, rgba(85, 255, 18, 1) 0%, rgba(0, 176, 73, 1) 50%);
+    font-family: "Red Hat Display", sans-serif;
+    border: none;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    cursor: crosshair;
+}
+
+button:hover {
+    background-color: #009d08;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 400px;
+    height: 150px;
+    font-size: 45px;
+}
+
+.image {
+    width: 500px;
+    height: 300px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.fact {
+    color: white;
+    font-size: 30px;
+    font-family: "Red Hat Display";
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.fact:hover {
+    font-size: 40px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.donate {
+    background: #ba9e00;
+background: linear-gradient(90deg, rgba(186, 158, 0, 1) 0%, rgba(255, 242, 64, 1) 50%);
+color: black;
+}
